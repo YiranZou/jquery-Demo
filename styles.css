@@ -1,0 +1,157 @@
+/*Styles for BAW 2018 jQuery demo*/
+
+
+
+.box1 {background-image: linear-gradient(to bottom , #7AFFAF, #197719);}
+.box2{ background-image: linear-gradient(to bottom , #197719, black);}
+
+
+img {
+/*  the viewport */
+    width: 100%;
+
+    max-width: 800px;
+
+/*    padding:2em; */
+/*    border:2em; */
+   display: block;
+   margin-left:-10em;
+/* 
+   position:fixed;
+   top:0; 
+   z-index:-1;
+ */
+/*    bottom:0; */
+/*    left:0em; */
+   }
+ .one{
+   width: 100%;
+
+    max-width: 1000px;
+
+/*    padding:2em; */
+/*    border:2em; */
+   display: block;
+   margin:15em;
+   padding-left:15em;
+   /* 
+top:0em; 
+   z-index:-1;
+    position:fixed;
+ */
+ }  
+   
+h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  position:relative;
+  display: block;
+  font-size:2em;  
+ /*  margin-left:31em; */
+/*   top:10em; */
+  text-transform: capitalize; 
+  }  
+nav li{
+	display:inline;
+	padding: 0 1.5em ;
+
+	/* 
+margin:0.5em;
+	padding-left:30em;
+	border-left:0;
+ */
+	
+	
+}
+
+nav a{   
+     font-family: 'Poppins', sans-serif;
+	 text-decoration:none;
+	 color:white;
+	 right:1em;
+	 font-size: 1em;
+	
+	
+}
+
+
+
+
+/* 
+div .biaoti{
+width:200;
+height:100;
+
+
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+ */
+
+.biaoti{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items: center;
+	/* 
+	margin-left: 900px;
+	margin-top: 350px;
+	 */
+}
+
+
+p1{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size:0.8em;  
+ }
+ p2{
+ color: white;
+font-family: 'Open Sans', sans-serif;
+font-size:0.8em;  
+ }
+ p3{
+ color: white;
+font-family: 'Open Sans', sans-serif;
+font-size:0.8em;  
+ }
+
+
+ .aboutClass {
+   position:absolute;
+   display: flex;
+   flex-wrap: wrap;
+ 	padding-top: 12em;
+ 	right:3em;
+ 	margin-left: 4em;
+ 	margin-right:58em;	
+ 	margin-top:1em;
+ 	text-align:justify;
+ 	text-indent:20px;
+ }
+ .biaoti2 {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-left: 100px;
+	margin-top: 15px;
+	padding-left:50em;
+	 
+}
+
+ .video{
+   width:100%;
+   max-width:300px;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+   margin:auto; 
+   padding-left: 1em;
+   position: flex;
+ }
+
+
+
+
